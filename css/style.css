@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pangolin&family=Poppins:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*======ESTILOS GERAIS =============*/
+ *, *::before,
+ *::after {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+     
+ }
+ /* Variáveis*/
+ :root{
+      --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+
+      --clr--green-dark:#049A40;
+      --clr-green-light: #0BF96A;
+      --clr-pink-dark: #E10BF9;
+      --clr-pink-light: #F3A0FD;
+      --clr-white: #F5F5F5;
+ }
+ /* Estilos Gerais*/
+ body{
+     background-color: var(--clr-white);
+     font-family: var(--ff-primary);
+
+ }
+ a,
+ a:hover,
+ a:active,
+ a:link,
+ a:visited {
+     text-decoration: none;
+     color: black;
+     
+
+ }
+ /*Menu*/
+ header .menu-bg{
+     background-color: var(--clr-green-light);
+ }
+ header .menu-bg .menu{
+     display: flex;
+     justify-content: space-between;
+     max-width: 960px;
+     margin: 0 auto;
+     align-items: center;
+ }
+ .meny__logo{
+     margin: 10px;
+ }
+ .nav__list{
+display: flex;
+list-style-type: none;
+ }
+ .nav__list .nav__link{
+     margin-right: 20px;
+ }
+ header .intro {
+     text-align: center;
+ }
+
+
+ 
+
