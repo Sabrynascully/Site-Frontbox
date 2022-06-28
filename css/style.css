@@ -50,6 +50,10 @@ p {
     font-size: 3rem;
     margin-bottom: 10px;
 }
+img {
+    display: block;
+    max-width: 100px;
+}
  
 
  
@@ -94,4 +98,24 @@ list-style-type: none;
 .somos-c__img {
     flex: 1 1 350px;
     
+}
+
+/* Nossos Cursos*/
+.cursos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.cursos-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.curso{
+    width: 280px;
+    margin:  0 20px;
+}
+.curso__titulo{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 0 5px 0;
 }
